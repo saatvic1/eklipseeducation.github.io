@@ -2,18 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Eklipse Education</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background-color: #e8eae6;
+      scroll-behavior: smooth;
     }
     nav {
       background-color: #c4d9e6;
       padding: 10px;
       text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 999;
     }
     nav ul {
       list-style: none;
@@ -39,12 +45,14 @@
       color: white;
       font-size: 1.2em;
     }
+    section {
+      padding: 60px 20px;
+    }
     .mission-vision {
       display: flex;
       justify-content: space-around;
-      padding: 40px;
-      background-color: #5d8c88;
       flex-wrap: wrap;
+      background-color: #5d8c88;
     }
     .card {
       width: 40%;
@@ -63,12 +71,11 @@
       display: flex;
       justify-content: space-around;
       background-color: #e2e5de;
-      padding: 40px 0;
       flex-wrap: wrap;
     }
     .pillar {
       text-align: center;
-      margin: 10px;
+      margin: 20px;
     }
     .pillar img {
       width: 200px;
@@ -84,7 +91,6 @@
     }
     .gallery {
       background-color: #5d8c88;
-      padding: 40px 20px;
       text-align: center;
     }
     .gallery h2 {
@@ -94,8 +100,8 @@
       display: flex;
       justify-content: center;
       gap: 20px;
-      margin-top: 20px;
       flex-wrap: wrap;
+      margin-top: 20px;
     }
     .carousel img {
       border-radius: 50%;
@@ -103,14 +109,58 @@
       height: 180px;
       object-fit: cover;
     }
+
+    /* About Section */
+    #about {
+      background-color: #0e1056;
+      color: #f1e6b2;
+      text-align: center;
+    }
+    #about img.hero-img {
+      max-width: 80%;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+    .our-story {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      color: white;
+    }
+    .board {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+    .member {
+      width: 300px;
+      margin: 20px;
+    }
+    .member img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+    .member h3 {
+      margin: 10px 0 5px;
+      font-size: 1.1em;
+      color: #ffe384;
+    }
+    .member p {
+      font-size: 0.95em;
+      color: #eee;
+    }
   </style>
 </head>
 <body>
 
+  <!-- Navigation -->
   <nav>
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
       <li><a href="#">Stories</a></li>
       <li><a href="#">HHEP</a></li>
       <li><a href="#">Branches</a></li>
@@ -120,7 +170,8 @@
     </ul>
   </nav>
 
-  <div class="hero">
+  <!-- Home Section -->
+  <div class="hero" id="home">
     <h1>Eklipse Education</h1>
     <p>Building ladders for future leaders</p>
   </div>
@@ -167,6 +218,45 @@
       <img src="https://i.imgur.com/NoAxO6Y.jpeg" alt="Gallery1" />
       <img src="https://i.imgur.com/8uKhKHZ.jpeg" alt="Gallery2" />
       <img src="https://i.imgur.com/YuxV4Vt.jpeg" alt="Gallery3" />
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h1>About Us</h1>
+    <p class="subtitle">Finding Inspiration in Every Turn</p>
+    <img class="hero-img" src="https://i.imgur.com/NoAxO6Y.jpeg" alt="About photo" />
+    <div class="our-story">
+      <h2 style="color:#ffe384;">Our Story</h2>
+      <p>
+        My trip to India, with its initial immersion in luxury resorts followed by a stark shift
+        to the realities of underserved communities, sparked a profound sense of gratitude...
+      </p>
+    </div>
+
+    <h2 style="color:#ffe384;">Meet the Board</h2>
+    <div class="board">
+      <div class="member">
+        <img src="https://i.imgur.com/ZC4NnPY.jpeg" alt="Isha" />
+        <h3>Isha Popat: Founder, CEO</h3>
+        <p>
+          Hi, I’m Isha, the founder of Eklipse — a mission-driven initiative born from...
+        </p>
+      </div>
+      <div class="member">
+        <img src="https://i.imgur.com/pMXgkC5.jpeg" alt="Dominique" />
+        <h3>Dominique Chevalier: Director of Curriculum Development</h3>
+        <p>
+          Student at Lycée International School in France.
+        </p>
+      </div>
+      <div class="member">
+        <img src="https://i.imgur.com/TP4wP8U.jpeg" alt="Saatvic" />
+        <h3>Saatvic Mahesh: Director of Web and Design</h3>
+        <p>
+          My name is Saatvic Mahesh, and I am a rising sophomore at Del Norte High School...
+        </p>
+      </div>
     </div>
   </section>
 

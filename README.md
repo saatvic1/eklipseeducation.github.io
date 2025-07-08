@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+  <nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#stories">Stories</a></li>
+    <li><a href="#hher">HHER</a></li>
+  </ul>
+</nav>
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>

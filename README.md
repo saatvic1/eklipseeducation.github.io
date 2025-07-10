@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <nav>
-  <ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#stories">Stories</a></li>
-    <li><a href="#hher">HHER</a></li>
-    <li><a href="#branches">Branches</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#blogs">Blogs</a></li>
-    <li><a href="#contact">Contact</a></li>
+  <!-- NAVBAR -->
+<nav style="background-color: #cde1ec; padding: 15px 0;">
+  <ul style="display: flex; justify-content: center; gap: 40px; list-style: none; margin: 0; padding: 0;">
+    <li><a href="#home" style="text-decoration: none; color: #0a0a6a; font-weight: bold;">Home</a></li>
+    <li><a href="#about" style="text-decoration: none; color: #0a0a6a; font-weight: bold;">About</a></li>
+    <li><a href="#stories" style="text-decoration: none; color: #0a0a6a; font-weight: bold;">Stories</a></li>
+    <li><a href="#hher" style="text-decoration: none; color: #0a0a6a; font-weight: bold;">HHER</a></li>
+    <li><a href="#branches" style="text-decoration: none; color: #0a0a6a; font-weight: bold;">Branches</a></li>
+    <li><a href="#projects" style="text-decoration: none; color: #0a0a6a; font-weight: bold;">Projects</a></li>
+    <li><a href="#blogs" style="text-decoration: none; color: #0a0a6a; font-weight: bold;">Blogs</a></li>
+    <li><a href="#contact" style="text-decoration: none; color: #0a0a6a; font-weight: bold;">Contact</a></li>
   </ul>
 </nav>
 <head>
@@ -438,5 +439,6 @@
     </button>
   </form>
 </section>
+
 </body>
 </html>

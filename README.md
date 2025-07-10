@@ -6,7 +6,8 @@
     <li><a href="#about">About</a></li>
     <li><a href="#stories">Stories</a></li>
     <li><a href="#hher">HHER</a></li>
-     <li><a href="#branches">Branches</a></li>
+    <li><a href="#branches">Branches</a></li>
+    <li><a href="#projects">Projects</a></li>
   </ul>
 </nav>
 <head>
@@ -360,6 +361,20 @@
     <img src="https://i.imgur.com/gMFHxW3.jpeg" alt="Scripps Ranch" style="width: 280px; border-radius: 10px;" />
     <img src="https://i.imgur.com/D7McUjU.jpeg" alt="La Jolla Country Day" style="width: 280px; border-radius: 10px;" />
     <img src="https://i.imgur.com/gMFHxW3.jpeg" alt="Scripps Ranch Again" style="width: 280px; border-radius: 10px;" />
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" style="background-color: #e0f0f7; padding: 60px 20px;">
+  <h1 style="text-align: center; color: #1d3557; font-size: 3em;">Our Initiatives</h1>
+  <p style="text-align: center; font-size: 1.1em; max-width: 800px; margin: auto; color: #2e496b;">
+    We are actively launching and supporting grassroots projects to create real impact — from education and hygiene
+    to sustainable development. Stay tuned for updates on how we’re empowering children across India through
+    focused, community-driven initiatives.
+  </p>
+
+  <div style="margin-top: 50px; text-align: center;">
+    <img src="https://i.imgur.com/NZdS3Md.jpeg" alt="Waterfall Project Background" style="width: 90%; max-width: 800px; border-radius: 15px; box-shadow: 0px 5px 15px rgba(0,0,0,0.1);" />
   </div>
 </section>
 </body>

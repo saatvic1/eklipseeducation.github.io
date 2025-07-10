@@ -6,6 +6,7 @@
     <li><a href="#about">About</a></li>
     <li><a href="#stories">Stories</a></li>
     <li><a href="#hher">HHER</a></li>
+     <li><a href="#branches">Branches</a></li>
   </ul>
 </nav>
 <head>
@@ -343,5 +344,23 @@
     </div>
   </section>
 
+<!-- Branches Section -->
+<section id="branches" style="background-color: #e0f0f7; padding: 60px 20px;">
+  <h1 style="text-align: center; color: #1d3557; font-size: 3em;">Our Growth</h1>
+  <p style="text-align: center; font-size: 1.1em; max-width: 800px; margin: auto; color: #2e496b;">
+    Eklipse, which began at Canyon Crest Academy, is now expanding its reach to schools throughout the city.
+    We are incredibly inspired by the students who have embraced Eklipse’s mission, and together,
+    we can empower children in India to truly flourish academically and access the essential resources they need.
+  </p>
+
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin-top: 40px;">
+    <img src="https://i.imgur.com/VsVBDMd.jpeg" alt="Canyon Crest Academy" style="width: 280px; border-radius: 10px;" />
+    <img src="https://i.imgur.com/UgRPpyq.jpeg" alt="Del Norte" style="width: 280px; border-radius: 10px;" />
+    <img src="https://i.imgur.com/4rgje5u.jpeg" alt="Westview" style="width: 280px; border-radius: 10px;" />
+    <img src="https://i.imgur.com/gMFHxW3.jpeg" alt="Scripps Ranch" style="width: 280px; border-radius: 10px;" />
+    <img src="https://i.imgur.com/D7McUjU.jpeg" alt="La Jolla Country Day" style="width: 280px; border-radius: 10px;" />
+    <img src="https://i.imgur.com/gMFHxW3.jpeg" alt="Scripps Ranch Again" style="width: 280px; border-radius: 10px;" />
+  </div>
+</section>
 </body>
 </html>

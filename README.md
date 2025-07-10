@@ -8,6 +8,8 @@
     <li><a href="#hher">HHER</a></li>
     <li><a href="#branches">Branches</a></li>
     <li><a href="#projects">Projects</a></li>
+    <li><a href="#blogs">Blogs</a></li>
+    <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
 <head>
@@ -376,6 +378,65 @@
   <div style="margin-top: 50px; text-align: center;">
     <img src="https://i.imgur.com/NZdS3Md.jpeg" alt="Waterfall Project Background" style="width: 90%; max-width: 800px; border-radius: 15px; box-shadow: 0px 5px 15px rgba(0,0,0,0.1);" />
   </div>
+</section>
+
+<!-- Blogs Section -->
+<section id="blogs" style="background-color: #e0f0f7; padding: 60px 20px;">
+  <h1 style="text-align: center; color: #1d3557; font-size: 3em; margin-bottom: 40px;">Blogs</h1>
+
+  <!-- Blog Post 1 -->
+  <div style="background-color: #ffffff; border-radius: 10px; padding: 30px; margin-bottom: 30px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); max-width: 900px; margin: auto;">
+    <h2 style="color: #1d3557;">Education: The Key to Breaking the Cycle of Poverty</h2>
+    <p style="font-style: italic; color: #4e6c86;">Blog Post #1 Written by Aadi Jariwala</p>
+    <p style="color: #333;">
+      Education is more than just learning to read, write, and add—it is arguably the most powerful tool for breaking
+      the cycle of poverty. For millions of underprivileged children, access to quality education is the difference
+      between a life of struggle and one full of possibilities...
+    </p>
+    <p style="color: #333;">
+      A single year of primary schooling increases a child’s future wages by 5% to 15% for boys and is typically
+      higher for girls. Every opportunity we give children through education unlocks a better tomorrow.
+    </p>
+    <p style="color: #4e6c86;"><a href="https://lumierededucation.org/why-education-is-the-key-to-breaking-the-cycle-of-poverty/" target="_blank">Read more →</a></p>
+  </div>
+
+  <!-- Blog Post 2 -->
+  <div style="background-color: #ffffff; border-radius: 10px; padding: 30px; margin-bottom: 30px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); max-width: 900px; margin: auto;">
+    <h2 style="color: #1d3557;">From Fear to Direction: How Education Became My Everything</h2>
+    <p style="font-style: italic; color: #4e6c86;">Blog Post #2 Written by Zeynep Istanbulluglu</p>
+    <p style="color: #333;">
+      When I was younger, I thought education was just something you had to get through. But somewhere along the way,
+      it became the reason I woke up excited. It opened doors to neurons, synapses, and rooms of healing and hope...
+    </p>
+    <p style="color: #333;">
+      From struggling with language as a new immigrant to finding her purpose in neuroscience,
+      Zeynep shares her journey of resilience and academic growth. Education became her superpower.
+    </p>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" style="background-color: #e0f0f7; padding: 80px 20px; text-align: center;">
+  <h1 style="color: #1d3557; font-size: 2.5em; margin-bottom: 10px;">Get in Touch</h1>
+  <p style="color: #457b9d; font-size: 1.2em; margin-bottom: 40px;">Connect with us for more information</p>
+
+  <form style="background-color: #ffffff; max-width: 600px; margin: 0 auto; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+    <div style="margin-bottom: 20px;">
+      <input type="text" name="name" placeholder="Your Name" required
+        style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 6px;">
+    </div>
+    <div style="margin-bottom: 20px;">
+      <input type="email" name="email" placeholder="Your Email" required
+        style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 6px;">
+    </div>
+    <div style="margin-bottom: 20px;">
+      <textarea name="message" placeholder="Your Message" required rows="5"
+        style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 6px;"></textarea>
+    </div>
+    <button type="submit" style="background-color: #1d3557; color: white; border: none; padding: 12px 25px; border-radius: 6px; cursor: pointer;">
+      Submit
+    </button>
+  </form>
 </section>
 </body>
 </html>

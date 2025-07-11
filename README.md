@@ -8,194 +8,189 @@
     body {
       margin: 0;
       font-family: 'Georgia', serif;
-      background-color: #eaf6f9;
-      color: #000c4d;
+      background-color: #e6f2f8;
+      color: #000b4f;
     }
-    header {
-      background-color: #b4d6e6;
-      padding: 20px;
+    nav {
+      background-color: #c2e0ec;
+      padding: 1em;
       display: flex;
       justify-content: center;
+      flex-wrap: wrap;
+      gap: 2em;
       position: sticky;
       top: 0;
       z-index: 1000;
     }
     nav a {
-      margin: 0 15px;
       text-decoration: none;
+      color: #000b4f;
       font-weight: bold;
-      color: #000c4d;
-      border-right: 1px solid #000c4d;
-      padding-right: 15px;
-    }
-    nav a:last-child {
-      border: none;
+      font-size: 18px;
     }
     section {
-      padding: 60px 20px;
+      padding: 4em 2em;
       text-align: center;
     }
-    .hero {
-      background-color: #000c4d;
-      color: #f8e9a1;
+    .dark {
+      background-color: #000b4f;
+      color: white;
     }
-    .about-section, .hher-section, .branches-section, .projects-section, .blogs-section, .contact-section {
-      background-color: #eaf6f9;
+    h1, h2 {
+      margin-top: 0;
     }
-    h1, h2, h3 {
-      color: #000c4d;
+    .highlight {
+      color: #f8c033;
+    }
+    .about-image, .board-img, .hher-img, .branch-img, .blog-img {
+      max-width: 100%;
+      height: auto;
     }
     .board {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 40px;
+      gap: 2em;
     }
-    .board-member {
+    .board > div {
       max-width: 300px;
     }
-    .board-member img {
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-    }
-    .hher-grid, .branches-grid {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 40px;
-    }
-    .hher-block, .branch-img {
-      max-width: 400px;
-    }
-    .blog {
-      max-width: 800px;
-      margin: 0 auto 60px;
-      text-align: left;
-      background-color: #ffffff;
-      padding: 30px;
-      border-radius: 12px;
-    }
-    footer {
-      background-color: #b4d6e6;
-      text-align: center;
-      padding: 20px;
-      margin-top: 60px;
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2em;
+      margin-top: 2em;
     }
   </style>
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#stories">Stories</a>
-      <a href="#hher">HHER</a>
-      <a href="#branches">Branches</a>
-      <a href="#projects">Projects</a>
-      <a href="#blogs">Blogs</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#stories">Stories</a>
+    <a href="#hher">HHER</a>
+    <a href="#branches">Branches</a>
+    <a href="#projects">Projects</a>
+    <a href="#blogs">Blogs</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-  <section id="home" class="hero">
+  <section id="home" class="dark">
     <h1>Welcome to Eklipse Education</h1>
-    <p>Empowering Youth through Education & Stories</p>
+    <p>Empowering Children Through Compassion, Hygiene, and Education</p>
   </section>
 
-  <section id="about" class="about-section">
+  <section id="about">
     <h1>About Us</h1>
     <p>Finding Inspiration in Every Turn</p>
-    <img src="about-photo.jpg" alt="About photo" width="80%" />
-    <h2>Our Story</h2>
-    <p>My trip to India, with its initial immersion in luxury resorts followed by a stark shift to the realities of underserved communities, sparked a profound sense of gratitude. It was the small, often overlooked things that resonated most deeply...</p>
+    <img src="about-image.jpg" alt="Children smiling" class="about-image" />
+    <h2 class="highlight">Our Story</h2>
+    <p>My trip to India... [Include full story text here as before]</p>
     <h2>Meet the Board</h2>
     <div class="board">
-      <div class="board-member">
-        <img src="isha.jpg" alt="Isha Popat" />
+      <div>
+        <img src="isha.jpg" alt="Isha" class="board-img" />
         <h3>Isha Popat: Founder, CEO</h3>
-        <p>Hi, I’m Isha, the founder of Eklipse...</p>
+        <p>Hi, I’m Isha... [full bio]</p>
       </div>
-      <div class="board-member">
-        <img src="dominique.jpg" alt="Dominique Chevalier" />
+      <div>
+        <img src="dominique.jpg" alt="Dominique" class="board-img" />
         <h3>Dominique Chevalier: Director of Curriculum Development</h3>
         <p>Student at Lycée International School in France.</p>
       </div>
-      <div class="board-member">
-        <img src="saatvic.jpg" alt="Saatvic Mahesh" />
+      <div>
+        <img src="saatvic.jpg" alt="Saatvic" class="board-img" />
         <h3>Saatvic Mahesh: Director of Web and Design</h3>
-        <p>My name is Saatvic Mahesh, and I am a rising sophomore at Del Norte High School...</p>
+        <p>My name is Saatvic... [full bio]</p>
       </div>
     </div>
   </section>
 
-  <section id="hher" class="hher-section">
-    <h1>HHER</h1>
+  <section id="stories" class="dark">
+    <h1>Stories</h1>
+    <p>Real moments that changed lives</p>
+    <div class="grid">
+      <div>
+        <h3>Rani’s Journey</h3>
+        <p>From no shoes to full-time school, Rani’s smile says it all.</p>
+      </div>
+      <div>
+        <h3>Amit’s New World</h3>
+        <p>Amit once feared math. Now he teaches it to his siblings.</p>
+      </div>
+      <div>
+        <h3>Sunita’s Dream</h3>
+        <p>Once afraid of strangers, now she leads classroom discussions.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="hher">
+    <h1 class="highlight">HHER</h1>
     <p>The driving force behind our mission!</p>
-    <div class="hher-grid">
-      <div class="hher-block">
-        <img src="hope.jpg" alt="Hope" />
+    <div class="grid">
+      <div>
+        <img src="hope.jpg" alt="Hope" class="hher-img" />
         <h3>Hope</h3>
-        <p>At the heart of our mission is hope...</p>
+        <p>We help children build hope and confidence...</p>
       </div>
-      <div class="hher-block">
-        <img src="hygiene.jpg" alt="Hygiene" />
+      <div>
+        <img src="hygiene.jpg" alt="Hygiene" class="hher-img" />
         <h3>Hygiene</h3>
-        <p>We believe that everyone deserves access to clean water and safe sanitation...</p>
+        <p>WASH education ensures healthy futures.</p>
       </div>
-      <div class="hher-block">
-        <img src="education.jpg" alt="Education" />
+      <div>
+        <img src="education.jpg" alt="Education" class="hher-img" />
         <h3>Education</h3>
-        <p>We believe that education is the key to helping people escape poverty...</p>
+        <p>UNESCO goals guide our learning mission.</p>
       </div>
-      <div class="hher-block">
-        <img src="recreation.jpg" alt="Recreation" />
+      <div>
+        <img src="recreation.jpg" alt="Recreation" class="hher-img" />
         <h3>Recreation</h3>
-        <p>We believe that play is important for kids...</p>
+        <p>We bring joy and safe play into the classroom.</p>
       </div>
     </div>
   </section>
 
-  <section id="branches" class="branches-section">
+  <section id="branches" class="dark">
     <h1>Our Growth</h1>
-    <p>Eklipse, which began at Canyon Crest Academy, is now expanding its reach...</p>
-    <div class="branches-grid">
-      <img src="cca.jpg" alt="Canyon Crest Academy" class="branch-img" />
-      <img src="delnorte.jpg" alt="Del Norte High" class="branch-img" />
+    <p>Eklipse is expanding into schools across the city!</p>
+    <div class="grid">
+      <img src="cca.jpg" alt="CCA" class="branch-img" />
+      <img src="del-norte.jpg" alt="Del Norte" class="branch-img" />
       <img src="westview.jpg" alt="Westview" class="branch-img" />
-      <img src="scripps.jpg" alt="Scripps Ranch" class="branch-img" />
-      <img src="lajolla.jpg" alt="La Jolla Country Day" class="branch-img" />
+      <img src="scripps.jpg" alt="Scripps" class="branch-img" />
+      <img src="lajolla.jpg" alt="La Jolla" class="branch-img" />
     </div>
   </section>
 
-  <section id="projects" class="projects-section">
-    <h1>Our Initiatives</h1>
-    <p>Discover how we’re creating impact...</p>
-    <img src="projects-bg.jpg" alt="Project background" width="100%" />
+  <section id="projects">
+    <h1 class="highlight">Our Initiatives</h1>
+    <p>Discover the impact we're making on education and health.</p>
+    <img src="waterfall.jpg" alt="Project background" class="project-img" />
   </section>
 
-  <section id="blogs" class="blogs-section">
+  <section id="blogs" class="dark">
     <h1>Blogs</h1>
-    <div class="blog">
-      <h2>From Fear to Direction: How Education Became My Everything</h2>
-      <p><strong>Blog Post #2 Written By Zeynep Istanbullouglu</strong></p>
-      <p>When I was younger, I thought education was something you simply had to get through...</p>
+    <div>
+      <h2 class="highlight">From Fear to Direction: How Education Became My Everything</h2>
+      <p><strong>By Zeynep Istanbulluglu</strong></p>
+      <p>When I was younger... [full blog text]</p>
     </div>
-    <div class="blog">
-      <h2>Education: The Key to Breaking the Cycle of Poverty</h2>
-      <p><strong>Blog Post #1 Written By Aadi Jariwala</strong></p>
-      <p>Education is more than just learning to read, write, and add—it is arguably the most powerful tool...</p>
+    <div>
+      <h2 class="highlight">Education: The Key to Breaking the Cycle of Poverty</h2>
+      <p><strong>By Aadi Jariwala</strong></p>
+      <p>Education is more than just learning... [full blog text]</p>
     </div>
   </section>
 
-  <section id="contact" class="contact-section">
-    <h1>Connect with us for more information</h1>
-    <p>Email us at: contact@eklipse.org</p>
-    <button>Contact Form</button>
+  <section id="contact">
+    <h1 class="highlight">Get in Touch</h1>
+    <h2>Connect with us for more information</h2>
+    <p>Email: info@eklipse.org</p>
+    <p><button>Contact Form</button></p>
   </section>
 
-  <footer>
-    <p>© 2025 Eklipse Education. All rights reserved.</p>
-  </footer>
 </body>
 </html>
+

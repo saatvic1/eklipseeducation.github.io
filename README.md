@@ -75,10 +75,16 @@
     <a href="#contact">Contact</a>
   </nav>
 
-  <section id="home" class="dark">
-    <h1>Welcome to Eklipse Education</h1>
-    <p>Empowering Children Through Compassion, Hygiene, and Education</p>
-  </section>
+ <section id="home" style="
+  background: url('https://i.imgur.com/1Q9Z1Zm.jpeg') center/cover no-repeat;
+  color: #f4b63d;
+  text-align: center;
+  padding: 100px 20px 40px;
+">
+  <h1 style="font-size: 3em; margin-bottom: 10px;">Welcome to Eklipse Education</h1>
+  <p style="font-size: 1.5em; color: white;">Building ladders for future leaders</p>
+</section>
+
 <!-- Mission & Vision Section -->
 <section id="mission-vision" style="padding: 60px 20px; background-color: #e0f0f7; text-align: center;">
   <h2 style="font-size: 2.5em; color: #1d3557;">Our Mission & Vision</h2>

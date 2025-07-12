@@ -79,6 +79,32 @@
     <h1>Welcome to Eklipse Education</h1>
     <p>Empowering Children Through Compassion, Hygiene, and Education</p>
   </section>
+<!-- Mission & Vision Section -->
+<section id="mission-vision" style="padding: 60px 20px; background-color: #e0f0f7; text-align: center;">
+  <h2 style="font-size: 2.5em; color: #1d3557;">Our Mission & Vision</h2>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px; margin-top: 40px;">
+    <div style="background-color: #ffffff; border-radius: 10px; padding: 20px; max-width: 400px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+      <img src="https://i.imgur.com/3d70tLs.jpeg" alt="Mission" style="width: 100%; border-radius: 8px;">
+      <h3 style="margin-top: 20px; color: #1d3557;">Mission</h3>
+      <p>The name "Eklipse" signifies the uncommon and remarkable potential within each child...</p>
+    </div>
+    <div style="background-color: #ffffff; border-radius: 10px; padding: 20px; max-width: 400px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+      <img src="https://i.imgur.com/Hp1BpHR.jpeg" alt="Vision" style="width: 100%; border-radius: 8px;">
+      <h3 style="margin-top: 20px; color: #1d3557;">Vision</h3>
+      <p>On July 10, Isha began her journey at Manav Seva, a community center...</p>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery" style="padding: 60px 20px; background-color: #f0f8fb; text-align: center;">
+  <h2 style="font-size: 2.5em; color: #1d3557;">Gallery</h2>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 30px;">
+    <img src="https://i.imgur.com/NoAxO6Y.jpeg" alt="Gallery1" style="border-radius: 12px; width: 200px; height: 200px; object-fit: cover;">
+    <img src="https://i.imgur.com/8uKhKHZ.jpeg" alt="Gallery2" style="border-radius: 12px; width: 200px; height: 200px; object-fit: cover;">
+    <img src="https://i.imgur.com/YuxV4Vt.jpeg" alt="Gallery3" style="border-radius: 12px; width: 200px; height: 200px; object-fit: cover;">
+  </div>
+</section>
 
   <section id="about">
     <h1>About Us</h1>

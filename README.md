@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -7,78 +7,172 @@
   <style>
     body {
       margin: 0;
-      font-family: 'Georgia', serif;
-      background-color: #e6f2f8;
-      color: #000b4f;
+      font-family: Arial, sans-serif;
+      background-color: #e8eae6;
     }
     nav {
-      background-color: #c2e0ec;
-      padding: 1em;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 2em;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
-    nav a {
-      text-decoration: none;
-      color: #000b4f;
-      font-weight: bold;
-      font-size: 18px;
-    }
-    section {
-      padding: 4em 2em;
+      background-color: #c4d9e6;
+      padding: 10px;
       text-align: center;
     }
-    .dark {
-      background-color: #000b4f;
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    nav ul li {
+      display: inline-block;
+      margin: 0 15px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: navy;
+      font-weight: bold;
+    }
+    .hero {
+      background: url("https://i.imgur.com/1Q9Z1Zm.jpeg") center/cover no-repeat;
+      text-align: center;
+      color: #f4b63d;
+      padding: 100px 20px 40px;
+    }
+    .hero p {
+      color: white;
+      font-size: 1.2em;
+    }
+    .mission-vision {
+      display: flex;
+      justify-content: space-around;
+      padding: 40px;
+      background-color: #5d8c88;
+      flex-wrap: wrap;
+    }
+    .card {
+      width: 40%;
+      background-color: #f8f0e3;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      margin: 10px;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 50%;
+      max-width: 250px;
+    }
+    .pillars {
+      display: flex;
+      justify-content: space-around;
+      background-color: #e2e5de;
+      padding: 40px 0;
+      flex-wrap: wrap;
+    }
+    .pillar {
+      text-align: center;
+      margin: 10px;
+    }
+    .pillar img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    .pillar button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      font-weight: bold;
+      color: darkblue;
+    }
+    .gallery {
+      background-color: #5d8c88;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .gallery h2 {
       color: white;
     }
-    h1, h2 {
-      margin-top: 0;
-    }
-    .highlight {
-      color: #f8c033;
-    }
-    .about-image, .board-img, .hher-img, .branch-img, .blog-img {
-      max-width: 100%;
-      height: auto;
-    }
-    .board {
+    .carousel {
       display: flex;
-      flex-wrap: wrap;
       justify-content: center;
-      gap: 2em;
+      gap: 20px;
+      margin-top: 20px;
+      flex-wrap: wrap;
     }
-    .board > div {
-      max-width: 300px;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 2em;
-      margin-top: 2em;
+    .carousel img {
+      border-radius: 50%;
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
     }
   </style>
 </head>
 <body>
+
   <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#stories">Stories</a>
-    <a href="#hher">HHER</a>
-    <a href="#branches">Branches</a>
-    <a href="#projects">Projects</a>
-    <a href="#blogs">Blogs</a>
-    <a href="#contact">Contact</a>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Stories</a></li>
+      <li><a href="#">HHEP</a></li>
+      <li><a href="#">Branches</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Blogs</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
   </nav>
 
-  <section id="home" class="dark">
-    <h1>Welcome to Eklipse Education</h1>
-    <p>Empowering Children Through Compassion, Hygiene, and Education</p>
+  <div class="hero">
+    <h1>Eklipse Education</h1>
+    <p>Building ladders for future leaders</p>
+  </div>
+
+  <section class="mission-vision">
+    <div class="card">
+      <img src="https://i.imgur.com/3d70tLs.jpeg" alt="Mission" />
+      <h2>Mission</h2>
+      <p>
+        The name "Eklipse" signifies the uncommon and remarkable potential within each child...
+      </p>
+    </div>
+    <div class="card">
+      <img src="https://i.imgur.com/Hp1BpHR.jpeg" alt="Vision" />
+      <h2>Vision</h2>
+      <p>
+        On July 10, Isha began her journey at Manav Seva, a community center...
+      </p>
+    </div>
   </section>
+
+  <section class="pillars">
+    <div class="pillar">
+      <img src="https://i.imgur.com/r6w1U09.jpeg" alt="Hope" />
+      <button>Hope</button>
+    </div>
+    <div class="pillar">
+      <img src="https://i.imgur.com/ZgrB5iF.jpeg" alt="Hygiene" />
+      <button>Hygiene</button>
+    </div>
+    <div class="pillar">
+      <img src="https://i.imgur.com/yxCynPG.jpeg" alt="Education" />
+      <button>Education</button>
+    </div>
+    <div class="pillar">
+      <img src="https://i.imgur.com/A7xAOPM.jpeg" alt="Recreation" />
+      <button>Recreation</button>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <h2>Gallery</h2>
+    <div class="carousel">
+      <img src="https://i.imgur.com/NoAxO6Y.jpeg" alt="Gallery1" />
+      <img src="https://i.imgur.com/8uKhKHZ.jpeg" alt="Gallery2" />
+      <img src="https://i.imgur.com/YuxV4Vt.jpeg" alt="Gallery3" />
+    </div>
+  </section>
+
+</body>
+</html>
+
 
   <section id="about">
     <h1>About Us</h1>
